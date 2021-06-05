@@ -2,8 +2,6 @@ import React from "react";
 
 import "./info.scss";
 
-import { Route } from "react-router-dom";
-
 import { ReactComponent as ReactLogo } from "../../assets/images/github.svg";
 
 const Info = () => {
