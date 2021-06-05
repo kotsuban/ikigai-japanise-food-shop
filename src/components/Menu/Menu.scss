@@ -1,0 +1,147 @@
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.menu-buttons {
+  display: inherit;
+}
+
+#menu-scrollbar::-webkit-scrollbar-track {
+  background: #0b0e11;
+}
+
+#menu-scrollbar::-webkit-scrollbar {
+  height: 5px;
+}
+
+#menu-scrollbar::-webkit-scrollbar-thumb {
+  background: #f93c47;
+  border-radius: 5px;
+}
+
+#menu-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #ac232b;
+}
+
+.menu-button {
+  margin-right: 9px;
+  &:hover {
+    .menu-button-text {
+      color: #2c2c2c;
+    }
+  }
+  &-text {
+    color: #f9f9f9;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.015em;
+    padding: 0px 23px;
+    width: max-content;
+  }
+}
+
+.menu-sort {
+  display: inherit;
+  align-items: center;
+  margin-left: 10rem;
+  position: relative;
+  p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.015em;
+    color: #e4e4e4;
+    width: max-content;
+  }
+  span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.015em;
+    color: #ff4344;
+    border-bottom: 1px dotted #ff4344;
+    cursor: pointer;
+  }
+  img {
+    width: 12px;
+    height: 6px;
+  }
+}
+
+.menu-sort-panel {
+  background-color: #15171fff;
+  position: absolute;
+  width: 155px;
+  height: 139px;
+  top: 43px;
+  right: 0px;
+  //box-shadow: -2px -2px 23px 5px rgba(34, 60, 80, 0.2);
+  border-radius: 19px;
+}
+
+.menu-sort-item {
+  &:hover {
+    background-color: #343950;
+  }
+  &:first-child {
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+  }
+  &:last-child {
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+  }
+  height: 40px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 9px;
+  color: #fff;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+.menu-sort-button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.menu-sort-arrow {
+  transform: rotate(180deg);
+  transition: 0.5s ease-out;
+}
+
+.menu-sort-arrow--active {
+  transform: rotate(0deg);
+  transition: 0.5s ease-out;
+}
+
+@media (max-width: 1185px) {
+  .menu-buttons {
+    width: 860px;
+    overflow-x: scroll;
+  }
+}
+
+@media (max-width: 700px) {
+  .menu-sort {
+    margin-left: 3rem;
+  }
+}
+
+@media (max-width: 586px) {
+  .menu-container {
+    flex-direction: column;
+  }
+  .menu-buttons {
+    width: 100%;
+  }
+  .menu-sort {
+    margin-left: 0rem;
+    margin-top: 2rem;
+  }
+}

@@ -1,0 +1,61 @@
+.empty-basket {
+  &-button {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.015em;
+    color: #ff4344;
+    border-bottom: 1px dotted #ff4344;
+    cursor: pointer;
+    &:hover {
+      color: #ff4344;
+    }
+  }
+  &-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    h2 {
+      font-size: 55px;
+      font-weight: 700;
+      color: #fff;
+      display: inline-block;
+      span {
+        color: #ff4344;
+        display: inline-block;
+      }
+    }
+    p {
+      color: #b6b6b6;
+    }
+  }
+  &-container {
+    display: flex;
+  }
+}
+
+@media (max-width: 665px) {
+  .empty-basket-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .empty-basket-text {
+    margin: auto;
+    h2 {
+      margin-top: 15px;
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  .empty-basket-sakura {
+    width: 100% !important;
+    height: 308px !important;
+  }
+  .empty-basket-text {
+    h2 {
+      font-size: 40px;
+    }
+  }
+}

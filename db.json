@@ -1,0 +1,540 @@
+{
+  "dishes": [
+    {
+      "dishName": "Роли",
+      "id": 1,
+      "dishList": [
+        {
+          "id": 1,
+          "popular": true,
+          "new": false,
+          "picture": "https://i.imgur.com/nvRyII4.png",
+          "title": "Калiфорнiя",
+          "description": "лосось, вершковий сир, огірок, авокадо, ікра “Тобіко”, рис, норі",
+          "price": 99,
+          "category": 1
+        },
+        {
+          "id": 2,
+          "popular": true,
+          "new": true,
+          "picture": "https://i.imgur.com/Z5JIYKl.png",
+          "title": "Торі Краб",
+          "description": "краб-крем, огірок, шеф соус, кунжут, курча",
+          "price": 99,
+          "category": 1
+        },
+        {
+          "id": 3,
+          "popular": false,
+          "new": true,
+          "picture": "https://i.imgur.com/jZNn5ef.png",
+          "title": "Спайсі креветка",
+          "description": "лосось, сир вершковий, огірок, масаго, креветки, соус спайсі",
+          "price": 125,
+          "category": 1
+        },
+        {
+          "id": 4,
+          "popular": false,
+          "new": false,
+          "picture": "https://i.imgur.com/BVoMBSz.png",
+          "title": "Ніжний вугор",
+          "description": "вугор, краб-крем, огірок, сир вершковий, унагі соус, шеф соус",
+          "price": 175,
+          "category": 1
+        },
+        {
+          "id": 5,
+          "popular": true,
+          "new": false,
+          "picture": "https://i.imgur.com/eXQvmWD.png",
+          "title": "Зелений дракон",
+          "description": "вугор, сир вершковий, авокадо, креветка тигрова, ікра масаго, унагі соус, кунжут",
+          "price": 155,
+          "category": 1
+        },
+        {
+          "id": 6,
+          "popular": true,
+          "new": false,
+          "picture": "https://i.imgur.com/dfWAH8T.png",
+          "title": "Ямі",
+          "description": "лосось копчений, сир вершковий, огірок",
+          "price": 69,
+          "category": 1
+        },
+        {
+          "id": 7,
+          "popular": false,
+          "new": true,
+          "picture": "https://i.imgur.com/GgY92WZ.png",
+          "title": "Марокко",
+          "description": "омлет томаго, огірок, кунжут, краб-крем, сир вершковий, лосось теріякі, масаго",
+          "price": 99,
+          "category": 1
+        },
+        {
+          "id": 8,
+          "popular": true,
+          "new": true,
+          "picture": "https://i.imgur.com/OBUXky8.png",
+          "title": "Каліфорнія Тайгер",
+          "description": "креветка тигрова, ананас, авокадо, ікра масаго, шеф соус",
+          "price": 209,
+          "category": 1
+        },
+        {
+          "id": 9,
+          "popular": false,
+          "new": true,
+          "picture": "https://i.imgur.com/GVgnkZS.png",
+          "title": "Фієста",
+          "description": "сир вершковий, салат айсберг, краб-крем, кунжут, соус спайсі, унагі соус, млинець яєчний",
+          "price": 59,
+          "category": 1
+        },
+        {
+          "id": 10,
+          "popular": true,
+          "new": false,
+          "picture": "https://i.imgur.com/XShFABT.png",
+          "title": "Каліфорнія з креветкою",
+          "description": "креветки, огірок, краб-крем, масаго",
+          "price": 119,
+          "category": 1
+        },
+        {
+          "id": 11,
+          "popular": false,
+          "new": false,
+          "picture": "https://i.imgur.com/NV7qHXi.png",
+          "title": "Джинджер",
+          "description": "лосось копчений, сир вершковий, імбир маринований, кунжут",
+          "price": 119,
+          "category": 1
+        }
+      ]
+    },
+    {
+      "dishName": "Піца",
+      "id": 2,
+      "dishList": [
+        {
+          "id": 12,
+          "popular": true,
+          "new": false,
+          "picture": "https://i.imgur.com/LTzDJzg.png",
+          "title": "Капрічоза",
+          "description": "основа, томатний соус, сир моцарелла, шинка, гриби, помідори, салямі",
+          "price": 149,
+          "category": 2
+        },
+        {
+          "id": 13,
+          "popular": true,
+          "new": true,
+          "picture": "https://i.imgur.com/GArB01o.png",
+          "title": "Капрезе",
+          "description": "основа, томатний соус, сир мацарелла, помідори, курка, шинка",
+          "price": 149,
+          "category": 2
+        },
+        {
+          "id": 14,
+          "popular": false,
+          "new": true,
+          "picture": "https://i.imgur.com/ZIRB8Hn.png",
+          "title": "Гавайська",
+          "description": "основа, томатний соус, сир моцарелла, ананас, кукурудза, курка, оливки",
+          "price": 159,
+          "category": 2
+        },
+        {
+          "id": 15,
+          "popular": false,
+          "new": false,
+          "picture": "https://i.imgur.com/ZgJXK43.png",
+          "title": "Мілано",
+          "description": "основа, томатний соус, сир моцарелла, курка, мисливські ковбаски, гриби",
+          "price": 142,
+          "category": 2
+        },
+        {
+          "id": 16,
+          "popular": true,
+          "new": false,
+          "picture": "https://i.imgur.com/Reqd1K6.png",
+          "title": "Козацька",
+          "description": "основа - томатний соус, моцарелла, мис. ковбаски, шинка, салямі, чилі, цибуля",
+          "price": 149,
+          "category": 2
+        },
+        {
+          "id": 17,
+          "popular": true,
+          "new": false,
+          "picture": "https://i.imgur.com/2mqRMLv.png",
+          "title": "4 Сири",
+          "description": "основа, вершковий соус, сир моцарелла, пармезан, сир дор блю, сир королівський",
+          "price": 162,
+          "category": 2
+        },
+        {
+          "id": 18,
+          "popular": false,
+          "new": true,
+          "picture": "https://i.imgur.com/Tz8h904.png",
+          "title": "Маргарита",
+          "description": "основа, томатний соус, сир моцарелла, помідори",
+          "price": 96,
+          "category": 2
+        },
+        {
+          "id": 19,
+          "popular": true,
+          "new": true,
+          "picture": "https://i.imgur.com/01jCfSk.png",
+          "title": "Папероні",
+          "description": "основа, томатний соус, сир моцарелла, папероні",
+          "price": 132,
+          "category": 2
+        },
+        {
+          "id": 20,
+          "popular": false,
+          "new": true,
+          "picture": "https://i.imgur.com/mGrSG8C.png",
+          "title": "Палермо",
+          "description": "основа, томатний соус, сир моцарелла, сир фета, в'ялені помідори, чилі, курка",
+          "price": 161,
+          "category": 2
+        },
+        {
+          "id": 21,
+          "popular": true,
+          "new": false,
+          "picture": "https://i.imgur.com/2mqRMLv.png",
+          "title": "Сальмоне",
+          "description": "вершкова основа, лосось, лимон, тим'ян сухий",
+          "price": 142,
+          "category": 2
+        },
+        {
+          "id": 22,
+          "popular": false,
+          "new": false,
+          "picture": "https://i.imgur.com/GArB01o.png",
+          "title": "Полло",
+          "description": "основа, вершковий соус, сир моцарелла, курка, кукурудза, помідори",
+          "price": 152,
+          "category": 2
+        }
+      ]
+    },
+    {
+      "dishName": "Супи",
+      "id": 3,
+      "dishList": [
+        {
+          "id": 23,
+          "popular": true,
+          "new": false,
+          "picture": "https://i.imgur.com/019d613.png",
+          "title": "Місо суп",
+          "description": "бульйон місо, гриби намеко, сир тофу, водорості вакаме, цибуля зелена",
+          "price": 39,
+          "category": 3
+        },
+        {
+          "id": 24,
+          "popular": true,
+          "new": true,
+          "picture": "https://i.imgur.com/8KnkCPI.png",
+          "title": "Кімчі суп",
+          "description": "бульйон місо, яйце, сир тофу, водорості вакаме, соус кімчі, кунжут",
+          "price": 49,
+          "category": 3
+        },
+        {
+          "id": 25,
+          "popular": false,
+          "new": true,
+          "picture": "https://i.imgur.com/3M1GY9a.png",
+          "title": "Вершковий з лососем",
+          "description": "лосось, бульйон місо, вершки, водорості вакаме, рис, цибуля зелена",
+          "price": 59,
+          "category": 3
+        },
+        {
+          "id": 26,
+          "popular": false,
+          "new": false,
+          "picture": "https://i.imgur.com/IXxb2xK.png",
+          "title": "Місо суп з лососем",
+          "description": "лосось, бульйон місо, водорості вакаме, сир тофу, цибуля зелена, гриби намеко",
+          "price": 69,
+          "category": 3
+        },
+        {
+          "id": 27,
+          "popular": true,
+          "new": false,
+          "picture": "https://i.imgur.com/1wFzgu7.png",
+          "title": "Місо суп з вугрем",
+          "description": "вугор, бульйон місо, водорості вакаме, сир тофу, цибуля зелена, гриби намеко",
+          "price": 89,
+          "category": 3
+        },
+        {
+          "id": 28,
+          "popular": true,
+          "new": false,
+          "picture": "https://i.imgur.com/v7OO7EY.png",
+          "title": "Том ям з куркою",
+          "description": "курча, печериці, бульйон том ям, помідори черрі, кінза, вершки",
+          "price": 119,
+          "category": 3
+        },
+        {
+          "id": 29,
+          "popular": false,
+          "new": true,
+          "picture": "https://i.imgur.com/eSkDaWm.png",
+          "title": "Том ям з креветками",
+          "description": "креветка тигрова, печериці, бульйон том ям, помідори черрі, кінза, вершки",
+          "price": 139,
+          "category": 3
+        }
+      ]
+    },
+    {
+      "dishName": "Рис",
+      "id": 4,
+      "dishList": [
+        {
+          "id": 30,
+          "popular": true,
+          "new": false,
+          "picture": "https://i.imgur.com/EPVaPuX.png",
+          "title": "Гострий з курчам",
+          "description": "рис, курча, капуста, морква, перець болгарський, квасоля стручкова, перець чiлі, устричний соус, соус теріякі, соус шірачі, кунжут",
+          "price": 109,
+          "category": 4
+        },
+        {
+          "id": 31,
+          "popular": true,
+          "new": true,
+          "picture": "https://i.imgur.com/GMtRSJT.png",
+          "title": "По-гавайськи",
+          "description": "рис, удон, курча, ананас, капуста, морква, соус теріякі, кунжут",
+          "price": 109,
+          "category": 4
+        },
+        {
+          "id": 32,
+          "popular": false,
+          "new": true,
+          "picture": "https://i.imgur.com/YJB7Xxx.png",
+          "title": "По-тайськи",
+          "description": "рис, курча, ананас, капуста, морква, соус теріякі, кунжут",
+          "price": 109,
+          "category": 4
+        },
+        {
+          "id": 33,
+          "popular": false,
+          "new": false,
+          "picture": "https://i.imgur.com/lfR2I87.png",
+          "title": "Гострий з яловичиною",
+          "description": "рис, Яловичина, перець болгарський, капуста, морква, квасоля стручкова, перець чiлі, кунжут, соус теріякі, устричний соус, соус ширачі",
+          "price": 129,
+          "category": 4
+        },
+        {
+          "id": 34,
+          "popular": true,
+          "new": false,
+          "picture": "https://i.imgur.com/oZfNpAV.png",
+          "title": "З курчам в китайському соусі",
+          "description": "рис, курча, цибуля ріпчаста, яйце, часник, амой соус",
+          "price": 99,
+          "category": 4
+        },
+        {
+          "id": 35,
+          "popular": true,
+          "new": false,
+          "picture": "https://i.imgur.com/38CZVWM.png",
+          "title": "Вегетаріанський",
+          "description": "рис, овочевий мікс, цибуля ріпчаста, огірок, соус теріякі, перець болгарський, печериці, кунжут, помідори черрі",
+          "price": 89,
+          "category": 4
+        }
+      ]
+    },
+    {
+      "dishName": "Салати",
+      "id": 5,
+      "dishList": [
+        {
+          "id": 36,
+          "popular": true,
+          "new": false,
+          "picture": "https://i.imgur.com/81s66BQ.png",
+          "title": "Чука",
+          "description": "водорості чука, кунжут, лимон, соус горіховий",
+          "price": 79,
+          "category": 5
+        },
+        {
+          "id": 37,
+          "popular": true,
+          "new": true,
+          "picture": "https://i.imgur.com/cvn9LJR.png",
+          "title": "Цезар з креветками",
+          "description": "салат айсберг, креветка тигрова, сир пармезан, помідори черрі, грінки, соус цезар",
+          "price": 125,
+          "category": 5
+        },
+        {
+          "id": 38,
+          "popular": false,
+          "new": true,
+          "picture": "https://i.imgur.com/HiHFhB1.png",
+          "title": "Цезар з курчам",
+          "description": "салат айсберг, курча, помідори черрі, сир пармезан, грінки, соус цезар",
+          "price": 89,
+          "category": 5
+        },
+        {
+          "id": 39,
+          "popular": false,
+          "new": false,
+          "picture": "https://i.imgur.com/YQJ9pvY.png",
+          "title": "Вітамінний",
+          "description": "капуста, морква, заправка легка, кунжут",
+          "price": 45,
+          "category": 5
+        },
+        {
+          "id": 40,
+          "popular": true,
+          "new": false,
+          "picture": "https://i.imgur.com/hwG8Bqs.png",
+          "title": "Поке з лососем, ківі та пікантним соусом теріякі",
+          "description": "лосось, огірок, кунжут, ківі, лимон, водорості норі, кінза, ікра масаго, цибуля зелена, соус пікантний теріякі, рис",
+          "price": 149,
+          "category": 5
+        },
+        {
+          "id": 41,
+          "popular": true,
+          "new": false,
+          "picture": "https://i.imgur.com/DoDy1a1.png",
+          "title": "Поке з креветкою, ківі та пікантним теріякі соусом",
+          "description": "тофу сир, креветка тигрова, ківі, лимон, ікра масаго, цибуля зелена, имбирь, кунжут, соус пікантний теріякі, рис",
+          "price": 149,
+          "category": 5
+        },
+        {
+          "id": 42,
+          "popular": true,
+          "new": true,
+          "picture": "https://i.imgur.com/Fwa2XbV.png",
+          "title": "Чіпси креветочні",
+          "description": "рисові чіпси, олія соняшникова",
+          "price": 29,
+          "category": 5
+        }
+      ]
+    },
+    {
+      "dishName": "Рiзне",
+      "dishId": 6,
+      "dishList": [
+        {
+          "id": 43,
+          "popular": true,
+          "new": false,
+          "picture": "https://i.imgur.com/jLTtods.png",
+          "title": "Імбир",
+          "description": "",
+          "price": 15,
+          "category": 6
+        },
+        {
+          "id": 44,
+          "popular": true,
+          "new": true,
+          "picture": "https://i.imgur.com/vm3bmwA.png",
+          "title": "Соєвий соус",
+          "description": "",
+          "price": 8,
+          "category": 6
+        },
+        {
+          "id": 45,
+          "popular": false,
+          "new": true,
+          "picture": "https://i.imgur.com/vm3bmwA.png",
+          "title": "Теріякі соус",
+          "description": "",
+          "price": 15,
+          "category": 6
+        },
+        {
+          "id": 46,
+          "popular": false,
+          "new": false,
+          "picture": "https://i.imgur.com/EwnZlG6.png",
+          "title": "Унагі соус",
+          "description": "",
+          "price": 19,
+          "category": 6
+        },
+        {
+          "id": 47,
+          "popular": true,
+          "new": false,
+          "picture": "https://i.imgur.com/2cVfQhg.png",
+          "title": "Горіховий соус",
+          "description": "",
+          "price": 25,
+          "category": 6
+        },
+        {
+          "id": 48,
+          "popular": true,
+          "new": false,
+          "picture": "https://i.imgur.com/qVXQSkW.png",
+          "title": "Васабі",
+          "description": "",
+          "price": 10,
+          "category": 6
+        },
+        {
+          "id": 49,
+          "popular": true,
+          "new": true,
+          "picture": "https://i.imgur.com/3vED4VE.png",
+          "title": "Навчальний фіксатор",
+          "description": "кріплення для паличок пластикове",
+          "price": 3,
+          "category": 6
+        },
+        {
+          "id": 50,
+          "popular": false,
+          "new": true,
+          "picture": "https://i.imgur.com/vm3bmwA.png",
+          "title": "Кімчі соус",
+          "description": "",
+          "price": 27,
+          "category": 6
+        }
+      ]
+    }
+  ]
+}

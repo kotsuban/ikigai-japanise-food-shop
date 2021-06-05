@@ -1,0 +1,115 @@
+.basket {
+  width: 100%;
+  margin-top: 4rem;
+  &-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: center;
+  }
+  &-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    display: inherit;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+  }
+  &-image {
+    height: 29px;
+    path {
+      fill: #3f3f3f !important;
+    }
+  }
+  &-clear {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #b6b6b6;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+      color: #777474;
+    }
+  }
+  &-statistics {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 50px;
+  }
+  &-product {
+    &-amount {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      letter-spacing: 0.01em;
+      color: #f9f9f9;
+    }
+    &-price {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      letter-spacing: 0.01em;
+      color: #ffffff;
+      span {
+        color: #ff4344;
+      }
+    }
+  }
+  &-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  &-back-button {
+    span {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      text-align: center;
+      color: #cacaca;
+      display: flex;
+      padding: 0px 15px;
+    }
+  }
+  &-pay-button {
+    strong {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      text-align: center;
+      color: #ffffff;
+      padding: 0px 15px;
+    }
+  }
+}
+
+@media (max-width: 430px) {
+  .basket-back-button span,
+  .basket-pay-button strong {
+    font-size: 14px;
+    padding: 0px 2px;
+  }
+  .basket-statistics {
+    flex-direction: column;
+  }
+  .basket-product-price {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 340px) {
+  .basket-name {
+    font-size: 30px;
+  }
+  .basket-image {
+    height: 24px;
+  }
+  .basket-clear {
+    font-size: 14px;
+    img {
+      height: 17px;
+    }
+  }
+}

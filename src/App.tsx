@@ -1,25 +1,51 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
+import { BrowserRouter as Router, Route } from "react-router-dom";
+
+import "./scss/global-styles.scss";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import {
+  CardsContainer,
+  Menu,
+  Header,
+  Footer,
+  Basket,
+  Info,
+} from "./components/index";
+
+import { fetchDishes } from "./redux/dishes/dishesSlice";
+import { useAppDispatch, useAppSelector } from "./hooks/reduxHooks";
 
 function App() {
+  const dispatch = useAppDispatch();
+  const dishesLoadStatus = useAppSelector((state) => state.dishes.status);
+
+  React.useEffect(() => {
+    if (dishesLoadStatus === "idle") {
+      dispatch(fetchDishes());
+    }
+  }, [dispatch, dishesLoadStatus]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <Router>
+        <div className="main-container">
+          <Header />
+          <Menu />
+          <Route path="/" exact>
+            <CardsContainer />
+          </Route>
+          <Route path="/info" exact>
+            <Info />
+          </Route>
+          <Route path="/basket" exact>
+            <Basket />
+          </Route>
+        </div>
+        <Footer />
+      </Router>
+    </React.Fragment>
   );
 }
 

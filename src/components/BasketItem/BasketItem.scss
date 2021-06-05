@@ -1,0 +1,97 @@
+.basket-item {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 8rem;
+  border-top: 1px solid #15171f;
+  border-bottom: 1px solid #15171f;
+  &__text {
+    margin-left: 15px;
+  }
+  &__info {
+    display: flex;
+    width: 100%;
+  }
+  &__photo {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    img {
+      max-height: 80px;
+    }
+  }
+  &__name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+  }
+  &__description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    color: #8d8d8d;
+  }
+  &__amount {
+    span {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      letter-spacing: 0.01em;
+      color: #ff4344;
+      margin: 0px 12px;
+    }
+    img {
+      width: 17px;
+      height: 12px;
+    }
+  }
+  &__price {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+  }
+  &__delete {
+    img {
+      width: 17px;
+      height: 28px;
+    }
+  }
+}
+
+.basket-item__statistics {
+  display: flex;
+  width: 30rem;
+  justify-content: space-between;
+  margin-left: 3rem;
+}
+
+@media (max-width: 740px) {
+  .basket-item {
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .basket-item__info {
+    padding: 15px 0;
+  }
+}
+
+@media (max-width: 586px) {
+  .basket-item__statistics {
+    margin: 0;
+    width: 20rem;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 370px) {
+  .basket-item__statistics {
+    width: 100%;
+  }
+}
