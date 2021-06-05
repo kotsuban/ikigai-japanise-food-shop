@@ -25,7 +25,9 @@ const initialState: StateTypes = {
 
 // Async thunk for fetch data from API
 export const fetchDishes = createAsyncThunk("dishes/fetchDishes", async () => {
-  const results = await axios.get("http://localhost:3001/dishes");
+  const results = await axios.get(
+    "https://ikigai-japanise-food.herokuapp.com/dishes"
+  );
   return results.data;
 });
 
