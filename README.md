@@ -1,5 +1,7 @@
 # ikigai-japanise-food
 Japanise Food Shop. (Pet Project)
+# link
+[ikigai-japanise-food](https://ikigai-japanise-food.herokuapp.com/)
 
 ![ikigai-japanise-food photo](https://prnt.sc/14ibghu)
 
