@@ -1,7 +1,7 @@
 # ikigai-japanise-food
 Japanise Food Shop. (Pet Project)
 # link
-[ikigai-japanise-food](https://ikigai-japanise-food.herokuapp.com/)
+[ikigai-japanise-food](https://kotsuban.github.io/ikigai-japanise-food-shop/)
 
 ![ikigai-japanise-food photo](https://i.imgur.com/0Fp9Zpg.png)
 
