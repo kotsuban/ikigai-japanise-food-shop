@@ -29,7 +29,7 @@ function App() {
 
   return (
     <React.Fragment>
-      <Router>
+      <Router basename="/ikigai-japanise-food-shop">
         <div className="main-container">
           <Header />
           <Menu />

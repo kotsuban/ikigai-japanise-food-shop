@@ -25,7 +25,7 @@ const initialState: StateTypes = {
 
 // Async thunk for fetch data from API
 export const fetchDishes = createAsyncThunk("dishes/fetchDishes", async () => {
-  const results = await axios.get("/db.json");
+  const results = await axios.get("/ikigai-japanise-food-shop/db.json");
   return results.data.dishes;
 });
 
