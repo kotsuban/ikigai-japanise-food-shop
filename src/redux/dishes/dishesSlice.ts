@@ -25,8 +25,8 @@ const initialState: StateTypes = {
 
 // Async thunk for fetch data from API
 export const fetchDishes = createAsyncThunk("dishes/fetchDishes", async () => {
-  const results = await axios.get("/dishes");
-  return results.data;
+  const results = await axios.get("/db.json");
+  return results.data.dishes;
 });
 
 const getTotalPrice = (arr: any) =>
