@@ -14,7 +14,7 @@ const Info = () => {
       </h2>
       <p className="info-description">
         You can check my other projects here:{" "}
-        <a href="https://github.com/WEBl0ck">
+        <a href="https://github.com/kotsuban">
           <ReactLogo className="ml-3" width="22" height="22" fill="#ff4344" />{" "}
           Github
         </a>
