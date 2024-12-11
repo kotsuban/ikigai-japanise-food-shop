@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ikigai-japanise-food-shop/static/css/main.05d3d1d9.chunk.css",
-    "main.js": "/ikigai-japanise-food-shop/static/js/main.84187362.chunk.js",
-    "main.js.map": "/ikigai-japanise-food-shop/static/js/main.84187362.chunk.js.map",
+    "main.js": "/ikigai-japanise-food-shop/static/js/main.decaa62d.chunk.js",
+    "main.js.map": "/ikigai-japanise-food-shop/static/js/main.decaa62d.chunk.js.map",
     "runtime-main.js": "/ikigai-japanise-food-shop/static/js/runtime-main.466394aa.js",
     "runtime-main.js.map": "/ikigai-japanise-food-shop/static/js/runtime-main.466394aa.js.map",
     "static/css/2.44d809a4.chunk.css": "/ikigai-japanise-food-shop/static/css/2.44d809a4.chunk.css",
@@ -33,6 +33,6 @@
     "static/css/2.44d809a4.chunk.css",
     "static/js/2.d14b927f.chunk.js",
     "static/css/main.05d3d1d9.chunk.css",
-    "static/js/main.84187362.chunk.js"
+    "static/js/main.decaa62d.chunk.js"
   ]
 }
