@@ -55,7 +55,7 @@ const Basket = () => {
           Всього товарів: <strong>{SelectedDishes.length}</strong>
         </div>
         <div className="basket-product-price">
-          Сумма заказа: <span> {totalPrice} ₴</span>
+          Сумма замовлення: <span> {totalPrice} ₴</span>
         </div>
       </div>
       <div className="basket-buttons">
